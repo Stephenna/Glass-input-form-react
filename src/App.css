@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  position: relative;
 }
 
 .form{
@@ -45,13 +45,15 @@ input{
   rgba(255, 255, 255, 0.7),
   rgba(255, 255, 255, 0.3));
  border: none;
- width: 75%;
- height: 48px;
+ width: 80%;
+ height: 72px;
  padding: 0.5rem;
  border-radius: 2rem;
  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
  margin: 10px;
  margin-left: 50px;
+ font-size: 30px;
+ text-align: center;
 }
 .name, .email, .pass{
   padding: 10px;
@@ -70,8 +72,30 @@ button{
   justify-content: center;
   align-items: center;
   width: 50%;
-  font-size: 30px;
+  font-size: 40px;
   margin-left: 22%;
+  color: rgb(113, 168, 231);
+  font-weight: 500;
+}
+.circle1, .circle2{
+  width: 260px;
+  height: 260px;
+  background: white;
+  background: linear-gradient(to right bottom,
+  rgba(255, 255, 255, 0.7),
+ rgba(255, 255, 255, 0.3) );
+  backdrop-filter: blur(2rem);
+  border-radius: 50%;
+}
+.circle1{
+  position: absolute;
+  top: 35%;
+  left: 18%;
+}
+.circle2{
+  position: absolute;
+  top: 65%;
+  right: 18%;
 }
 /* STYLING THE LITTLE THINGS */
 p{
@@ -88,6 +112,7 @@ h1{
   rgba(255, 255, 255, 0.3));
   border-radius: 2rem;
   padding: 15px;
+  color:rgb(246, 153, 194);
 }
 label{
   font-size: 36px;
