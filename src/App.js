@@ -38,7 +38,7 @@ class Register extends Component {
       
       let errors = this.state.errors;
     
-      // switch statment runs every single time a character is entered.
+      // switch statement runs every single time a character is entered.
       switch(name) {
       // switch(name) = input name attr
       // case value = input name attr value;
